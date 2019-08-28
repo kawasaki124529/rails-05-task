@@ -8,4 +8,6 @@ class User < ApplicationRecord
     validates :password_confirmation, presence: true, length: { in: 8..32 }
     
     has_secure_password
+    
+    has_many :topics
 end
