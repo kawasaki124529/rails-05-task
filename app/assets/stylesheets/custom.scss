@@ -133,9 +133,34 @@ h1, h2{
 		}
 		
 		.topic-index-icon {
-			width: 35px;
-			height: 30px;
+			width: 45px;
+			height: 40px;
 			margin-left: 20px;
+			display: inline-block;
+			overflow: hidden;
+			text-indent: 110%;
+			white-space: nowrap;
+  		background-repeat: no-repeat;
+  		background-size: 45px !important;
+		}
+		
+		.liked {
+  		background-image: image-url("icons/parts7.png");
+		}
+		
+		.like {
+  		background-image: image-url("icons/parts5.png");
+		}
+		
+		.comment {
+			background-image: image-url("icons/parts6.png");
+		}
+		
+		.hide-text {
+			display: inline;
+			overflow: hidden;
+			text-indent: 110%;
+			white-space: nowrap;
 		}
 	}
 }
